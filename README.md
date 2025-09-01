@@ -115,7 +115,7 @@ The hardware consists of several key modules:
 
 ### Performance
 
-- **Throughput**: One lookup per clock cycle (after 3-cycle pipeline fill)
+- **Throughput**: One lookup per clock cycle
 - **Latency**: 3 clock cycles per lookup
 - **Fmax**: Limited by memory access and CRC calculation, easy to reach 500 MHz on an modern FPGA
 - **Parallelism**: Up to 8 parallel CRC engines for conflict resolution
